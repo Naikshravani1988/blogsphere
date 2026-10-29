@@ -1,0 +1,19 @@
+:root { --ink: #17233b; --accent: #536dfe; }
+body { background: #f6f8fc; color: var(--ink); min-height: 100vh; }
+.navbar { background: #17233b !important; }
+.navbar-brand { letter-spacing: .2px; }
+.hero { background: linear-gradient(135deg, #e8edff, #f5eaff); }
+.hero h1 { color: #17233b; }
+.hero .small { letter-spacing: 2px; color: #536dfe; }
+.form-card, .post-card { border-radius: 18px; }
+.form-control { padding: .75rem .9rem; border-color: #e0e5ef; }
+.form-control:focus { border-color: #8796ff; box-shadow: 0 0 0 .2rem #536dfe20; }
+.btn-primary { background: var(--accent); border-color: var(--accent); padding: .75rem; font-weight: 600; }
+.post-card { border: 0; box-shadow: 0 5px 20px #17233b0b; }
+.post-card .card-body { padding: 1.35rem; }
+.post-content { white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.7; }
+.post-meta { color: #748099; font-size: .85rem; }
+.delete-btn { color: #b42318; border-color: #f0c8c5; }
+.delete-btn:hover { background: #fff1f0; color: #912018; }
+.empty-state { background: white; border: 1px dashed #ccd3e2; border-radius: 18px; padding: 2rem; text-align: center; color: #748099; }
+footer { background: #fff; }
